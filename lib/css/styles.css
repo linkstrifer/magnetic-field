@@ -1,0 +1,41 @@
+body {
+    background-color: #33b5e5;
+}
+html {
+    cursor: pointer;
+}
+#data {
+    background-color: #9c0;
+    color: #fff;
+    font-size: 15px;
+    left: 25px;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+    width: 210px;
+}
+    #data-wire1 {
+        content: attr(data-distance);
+    }
+#point {
+    background-color: #ff4444;
+    border-radius: 50%;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+}
+#wires {
+    position: relative;
+    top: 360px;
+}
+.wire {
+    background-color: #222;
+    height: 5px;
+    width: 100%;
+}
+.wire:nth-child(1) {
+    margin-bottom: 20px;
+}
+.wire:nth-child(2) {
+    margin-bottom: 20px;
+}
